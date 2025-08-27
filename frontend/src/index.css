@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+/* draggable header */
+.titlebar {
+  -webkit-app-region: drag;
+}
+
+/* buttons inside titlebar should NOT be draggable */
+.titlebar button {
+  -webkit-app-region: no-drag;
+}
+
+@theme inline {
+  --color-bg: oklch(12.9% 0.042 264.695);
+}
