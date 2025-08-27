@@ -5,7 +5,7 @@ import Titlebar from "./components/titlebar";
 
 const App = () => {
   return (
-    <div className="min-h-screen bg-bg">
+    <div className="min-h-screen bg-neutral-800 text-indigo-200">
       <Titlebar />
       <Router>
         <Routes>
